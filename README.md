@@ -1,11 +1,24 @@
 # docker-kubernetes-demo
 
-## Getting Started
+## Dive Into Docker!
 
-**What is Docker?**
+_Diffchecker -_ <https://www.diffchecker.com/>
 
-- Docker is a container technology: A tool for creating and managing containers
-- Docker helps you build and manage _containers_
+_diagrams.net (formerly draw.io) -_ <https://www.drawio.com/>
+
+_Awesome Screenshot -_ <https://www.awesomescreenshot.com/>
+
+---
+
+**What is docker?** - Docker is a platform or ecosystem around creating and running containers.
+
+_Docker Client_ - Tool that we are going to issue commands to
+
+_Docker Server_ - Tool that is responsible for creating images, running containers, etc
+
+---
+
+**Why use docker?** - Docker makes it really easy to install and run software without worrying about setup or dependencies.
 
 ---
 
@@ -79,6 +92,8 @@ If you can't install Docker on your system, you can also look into this online p
 
 **Docker Commands**
 
+`docker version`
+
 `docker build .` - Builds a Docker image from the Dockerfile in the current directory.
 
 `docker images` - Lists all Docker images stored locally on your system, showing details like repository, tag, image ID, and size.
@@ -94,3 +109,9 @@ If you can't install Docker on your system, you can also look into this online p
 ---
 
 ## Docker Images & Containers
+
+**Image** - Single file with all the deps and config required to run a program.
+
+**Container** - Instance of an image. Runs a program.
+
+## Manipulating Containers with the Docker Client
